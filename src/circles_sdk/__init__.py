@@ -52,6 +52,9 @@ from .transfers.advanced import (
     advanced_transfer_with_transactions,
 )
 
+# Avatar interface
+from .avatar import CirclesAvatar
+
 # Transaction building
 from .transactions.builder import (
     TransactionBuilder,
@@ -130,6 +133,9 @@ __all__ = [
     "AdvancedTransfer",
     "advanced_transfer", 
     "advanced_transfer_with_transactions",
+    
+    # Avatar interface
+    "CirclesAvatar",
     
     # Transaction building
     "TransactionBuilder",
